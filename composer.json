@@ -1,0 +1,17 @@
+{
+    "name": "anjali.shrivastava_i/test-project",
+    "description": "php unit testing sample project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AnjaliShrivastavaI\\TestProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anjali"
+        }
+    ]
+}
