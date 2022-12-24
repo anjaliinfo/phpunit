@@ -2,21 +2,21 @@
 
  <b>Here are the Steps to test using php unit test cases :</b>
 
- #1. Install Composer 
+ 1. Install Composer 
 
   Get composer from   https://getcomposer.org/download/  
   
- #2. Phpunit Installation 
+ 2. Phpunit Installation 
 
-  i. Open the Command Prompt and run following commands:
+ i. Open the Command Prompt and run following commands:
 
      mkdir test-project
      cd test-project
      composer init
      
-    ii.  Fill the details as required in prompt for composer.
+  ii.  Fill the details as required in prompt for composer.
    
-   iii. When the prompt asks Would you like to define your dev dependencies (require-dev) interactively [yes]?, press enter to accept. Then type in phpunit/phpunit to install PHPUnit as a dev-dependency. 
+ iii. When the prompt asks Would you like to define your dev dependencies (require-dev) interactively [yes]?, press enter to accept. Then type in phpunit/phpunit to install PHPUnit as a dev-dependency. 
    
    iv. Accept the other defaults  and generated composer.json file looks like this -
    
@@ -38,9 +38,11 @@
             ]
         }
         
-    #v. Phpunit docs https://phpunit.readthedocs.io/en/9.5/installation.html#
+        
+        
+ v. Phpunit docs https://phpunit.readthedocs.io/en/9.5/installation.html#
    
-    #vi.  #Writing phpunit cases 
+ vi.  Writing phpunit cases 
    
       a. Create a test class named after that class.
       b. If class is User , test class will be UserTest.
@@ -48,7 +50,7 @@
       d. Individual tests on the class are public methods named with test as a prefix. 
       e. A popular convention is to have all tests in a tests directory, and all source code in the src directory.
 
-   #vii. Phpunit Test example User class
+  vii. Phpunit Test example User class
        <?php
 
           namespace AnjaliShrivastavaI\TestProject;
