@@ -1,6 +1,6 @@
 # Phpunit Installation Writing & Running Test Cases      
 
-# Here are the Steps to test using php unit test cases :
+ <b>Here are the Steps to test using php unit test cases :</b>
 
  #1. Install Composer 
 
