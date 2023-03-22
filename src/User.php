@@ -1,4 +1,3 @@
-
 <?php
 
 namespace AnjaliShrivastavaI\TestProject;
@@ -10,6 +9,8 @@ class User
     public int $age;
     public array $favorite_movies = [];
     public string $name;
+    public string $str_name;
+    public string $str;
 
     /**
      * @param int $age
@@ -46,4 +47,15 @@ class User
 
         return true;
     }
+
+    public function arrayHasKey($arr){
+        $this->subset_array = $arr;
+        return $this->subset_array;
+    }
+
+    public function negativeTestcaseForAssertEquals($str){
+        $this->str_name = $str;
+        return $this->str_name;
+    }
+
 }
